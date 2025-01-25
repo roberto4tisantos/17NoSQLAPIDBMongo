@@ -71,8 +71,8 @@ thoughtSchema.virtual('reactionCount').get(function () {
 // Uses mongoose.model() to create model
 const Thought = mongoose.model('Thought', thoughtSchema);
 
-module.exports = Thought;
-export default Thought; 
+//module.exports = Thought;
+export default Thought;
 
 // @ts-ignore
 export function deleteMany(_arg0) {

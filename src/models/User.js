@@ -1,4 +1,7 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
+
+//const User = mongoose.model('User', userSchema);
+//import mongoose from 'mongoose';
 // import { Schema, model, Document } from 'mongoose';
 
 //const mongoose = require('mongoose'); 
@@ -47,8 +50,9 @@ userSchema.virtual('friendCount').get(function () {
 // Uses mongoose.model() to create model
 const User = mongoose.model('User', userSchema);
 
-module.exports = User;
+//module.exports = User;
 export default User;
+
 // @ts-ignore
 export function findByIdAndUpdate(_userId , _body , _arg2) {
   throw new Error('Function not implemented.');

@@ -1,8 +1,11 @@
 // @ts-ignore
-import { Request, Response } from 'express';
-const express = require('express');
-const User = require('../../models/User.js');
-const Thought = require('../../models/Thought.js');
+//import { Request, Response } from 'express';
+//const express = require('express');
+//const User = require('../../models/User.js'); 
+//const Thought = require('../../models/Thought.js'); 
+import express from 'express';
+import User from '../../models/User.js';
+import Thought from '../../models/Thought.js';
 const router = express.Router();
 // /api/users
 // GET all users
@@ -102,5 +105,5 @@ router.delete('/thoughts/:thoughtId/reactions/:reactionId', async (_req, _res) =
 });
 // Export the router
 export default router;
-module.exports = router;
+//module.exports = router;
 //# sourceMappingURL=SocialNetworkAPI.js.map
