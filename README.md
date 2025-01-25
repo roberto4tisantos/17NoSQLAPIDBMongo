@@ -22,4 +22,5 @@ Walkthrough video must demonstrate POST and DELETE routes for a user's friend li
 Walkthrough video must demonstrate POST and DELETE routes for reactions to thoughts being tested in Insomnia.
 
 
-![image](https://github.com/user-attachments/assets/c5b99354-1ae4-42cf-8418-487f0f643ace)
+![image](https://github.com/user-attachments/assets/0d325cde-b9bb-4ae9-92be-9082cf85c123)
+
