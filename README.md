@@ -5,7 +5,8 @@ API for a social network web application where users can share their thoughts, r
 Express.js for routing, a MongoDB database, and JavaScript.
 
 # Walkthrough video
-Demonstrates the functionality of the social media API 
+Demonstrates the functionality of the social media API. 
+
 The walkthrough video must show all of the technical acceptance criteria being met.
 
 The walkthrough video must demonstrate how to start the application's server.
