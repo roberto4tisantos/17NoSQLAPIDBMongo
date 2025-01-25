@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-// import { Schema, model, Document } from 'mongoose';
 //const mongoose = require('mongoose'); 
 const { Schema } = mongoose;
 // Reaction Schema

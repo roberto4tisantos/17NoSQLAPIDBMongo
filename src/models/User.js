@@ -1,9 +1,5 @@
 import mongoose from "mongoose";
 
-//const User = mongoose.model('User', userSchema);
-//import mongoose from 'mongoose';
-// import { Schema, model, Document } from 'mongoose';
-
 //const mongoose = require('mongoose'); 
 const { Schema } = mongoose; 
 
@@ -71,4 +67,3 @@ export function find() {
 export function findById(_userId ) {
   throw new Error('Function not implemented.');
 }
-
