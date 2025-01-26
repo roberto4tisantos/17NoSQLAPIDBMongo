@@ -91,4 +91,3 @@ export function findById(_thoughtId) {
 export function findByIdAndDelete(_thoughtId) {
   throw new Error('Function not implemented.');
 }
-

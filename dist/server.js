@@ -1,6 +1,7 @@
 import express from 'express';
 import db from './config/connection.js'; // Use the compiled JavaScript file
 import routes from './routes/api/SocialNetworkAPI.js';
+//http://localhost:3001/api/users
 const PORT = process.env.PORT || 3001;
 const app = express();
 // Built in Express function that parses incoming requests to JSON

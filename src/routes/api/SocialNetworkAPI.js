@@ -105,6 +105,17 @@ router.get('/thoughts/:thoughtId', async (_req, _res) => {
 }  
 });
 
+// PUT to update a thoughts by its _id
+router.put('/thoughts/:thoughtId', async (_req, _res) => {
+  try {     
+  const updatedThought = await Thought.findByIdAndUpdate(_req.params.thoughtId, _req.body, { new: true });
+  _res.status(200).json(updatedThought);
+} catch (err) {
+  console.log('Error put users');
+  _res.status(500).json({ error: 'Error put thoughts' });
+}        
+});
+
 // DELETE to remove a thought by its _id
 router.delete('/thoughts/:thoughtId', async (_req, _res) => {
   try {        
