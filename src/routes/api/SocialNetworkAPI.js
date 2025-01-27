@@ -130,11 +130,13 @@ router.delete('/thoughts/:thoughtId', async (_req, _res) => {
 // /api/users/:userId/friends/:friendId
 // POST to add a new friend
 router.post('/users/:userId/friends/:friendId', async (_req, _res) => {
+//router.post('/users/:userId/friends', async (_req, _res) => {  
   try {          
   const user = await User.findById(_req.params.userId);
   const friend = await User.findById(_req.params.friendId);
   // @ts-ignore
   user.friends.push(friend);
+  //user.friends.push(_req.body);
   // @ts-ignore
   await user.save();
   _res.status(200).json(user);
