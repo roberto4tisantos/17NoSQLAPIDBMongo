@@ -40,6 +40,36 @@ The walkthrough video must demonstrate GET routes for a single user and a single
 
 The walkthrough video must demonstrate POST, PUT, and DELETE routes for users and thoughts being tested in Insomnia.
 
+# POST USERS
+![image](https://github.com/user-attachments/assets/ff6a72e8-322c-4f04-b612-fa1af28a5383)
+
+![image](https://github.com/user-attachments/assets/64b77fc3-5f70-4df6-ab8e-51c3e5377b51)
+
+# PUT USERS
+![image](https://github.com/user-attachments/assets/1788ba13-afb8-4d2e-975b-21ea3fb6efed)
+
+![image](https://github.com/user-attachments/assets/b29d1b4d-b624-44f9-a20b-45a8d6dc48a8)
+
+# DELETE USERS
+![image](https://github.com/user-attachments/assets/51684cc5-0fcf-47fa-b060-0c5ef1f6e4ed)
+
+![image](https://github.com/user-attachments/assets/9ff5f2f2-e5fd-40a7-ae91-5c02dcad452b)
+
+# POST Thoughts
+![image](https://github.com/user-attachments/assets/6a76cdf1-26a9-4f74-b39a-7a549db1c57b)
+
+![image](https://github.com/user-attachments/assets/c97250ff-4b01-4646-af82-5631ae32cf2d)
+
+# PUT Thoughts
+![image](https://github.com/user-attachments/assets/b02e8c43-1100-40d3-84c9-a4570270a519)
+
+![image](https://github.com/user-attachments/assets/82a64c2b-13dc-433d-acc1-f52c6a4fbeb3)
+
+# DELETE Thoughts
+![image](https://github.com/user-attachments/assets/81e4325a-a6c6-4078-a03f-388cefd13445)
+
+![image](https://github.com/user-attachments/assets/a8d1c3cc-f618-4979-8cb5-ef46bddf4f43)
+
 Walkthrough video must demonstrate POST and DELETE routes for a user's friend list being tested in Insomnia.
 
 Walkthrough video must demonstrate POST and DELETE routes for reactions to thoughts being tested in Insomnia.
